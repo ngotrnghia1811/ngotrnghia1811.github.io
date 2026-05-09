@@ -1,0 +1,135 @@
+---
+title: Projects
+page-layout: full
+toc: true
+---
+
+This page highlights research projects, benchmarks, and software I have built or contributed to, grouped by research theme. For code, see [GitHub](https://github.com/ngotrnghia1811).
+
+## Benchmarks and Evaluation
+
+::: {.card-grid}
+::: {.section-card}
+### [mSCoRe](https://arxiv.org/pdf/2508.10137)
+
+*LREC 2026 · [Code](https://github.com/ngotrnghia1811/mSCORE)*
+
+A multilingual and scalable benchmark for skill-based commonsense reasoning. Evaluates LLMs across **5 languages** and **10 reasoning skills** with dynamic complexity scaling (L0–L3) that progressively increases task difficulty. Contains 5,600 instances spanning general and social/cultural commonsense.
+:::
+::: {.section-card}
+### [MedRGB](https://arxiv.org/abs/2411.09213)
+
+*AAAI 2026 Workshop on AI for Scientific Research · [Code](https://github.com/ngotrnghia1811/MedRGB)*
+
+A benchmarking framework for medical retrieval-augmented generation systems. Evaluates across four practical test scenarios — Standard-RAG, Sufficiency, Integration, and Robustness — with varying proportions of signal and noise documents, assessing reliability beyond accuracy alone.
+:::
+:::
+
+## Retrieval-Augmented Generation
+
+::: {.card-grid}
+::: {.section-card}
+### ESV-RAG
+
+*Research project · [Code](https://github.com/ngotrnghia1811/esv-rag)*
+
+Explore–Solve–Verify Reasoning-Augmented Generation with Monte Carlo Tree Search planning. Formulates multi-hop question answering as a planning problem where an agent selects optimal action sequences through PUCT-guided tree search. Achieves state-of-the-art results across multiple FlashRAG benchmark datasets.
+:::
+:::
+
+## Multilingual Learning and Transfer
+
+::: {.card-grid}
+::: {.section-card}
+### [ChatGPT Beyond English](https://aclanthology.org/2023.findings-emnlp.878)
+
+*Findings of EMNLP 2023 · [Code](https://github.com/ngotrnghia1811/chatgpt-multilingual-eval)*
+
+Large-scale zero-shot evaluation of ChatGPT (GPT-3.5-turbo) on **7 NLP tasks** across **37 languages** spanning high-, medium-, low-, and extremely low-resource settings. Compares ChatGPT against state-of-the-art supervised models to quantify the multilingual gap.
+:::
+::: {.section-card}
+### [Multilingual Relational Transfer (ZSRL)](https://arxiv.org/abs/2411.08785)
+
+*Findings of ACL 2023 · [Code](https://github.com/ngotrnghia1811/multilingual-relational-transfer)*
+
+Zero-shot cross-lingual transfer for information extraction with multiple source and target languages. Introduces principled language selection via linguistic distance metrics and graph-relational domain adaptation (GrDA), yielding +3.0–3.7 F1 over random source selection.
+:::
+::: {.section-card}
+### Language-Disentangle-Distillation
+
+*Research project · [Code](https://github.com/ngotrnghia1811/language-disentangle-distillation)*
+
+A compact multilingual pre-trained language model that explicitly disentangles language-specific and language-agnostic representations via knowledge distillation from XLM-RoBERTa. Uses dual hidden-state streams with Feature-wise Linear Modulation (FiLM) to address the curse of multilinguality.
+:::
+::: {.section-card}
+### Multilingual Federated Distillation
+
+*Research project · [Code](https://github.com/ngotrnghia1811/multilingual-federated-distillation)*
+
+A federated learning framework for multilingual NLP addressing data heterogeneity (different languages) and latency heterogeneity (different hardware). Combines semi-asynchronous tier training, personalized tokenizers, and federated distillation to reduce per-round communication payload by over 90%.
+:::
+:::
+
+## Domain Adaptation for Information Extraction
+
+::: {.card-grid}
+::: {.section-card}
+### [DA4JIE](https://aclanthology.org/2022.findings-emnlp.434/)
+
+*Findings of EMNLP 2022 · [Code](https://github.com/ngotrnghia1811/DA4JIE)*
+
+Unsupervised domain adaptation for joint information extraction across four tasks simultaneously (entity mention, event trigger, relation, and event argument extraction). Proposes Instance-relational Domain Adaptation (IrDA) with a chain graph topology and Context-invariant Structure Learning (CiSL).
+:::
+::: {.section-card}
+### [DAA — Domain-specific Adapters for Event Detection](https://aclanthology.org/2021.findings-acl.351/)
+
+*Findings of ACL-IJCNLP 2021 · [Code](https://github.com/ngotrnghia1811/DAA)*
+
+Unsupervised domain adaptation for event detection using three lightweight bottleneck adapters per BERT layer (source-private, target-private, joint). Combines layer-wise adversarial alignment with Wasserstein sample selection and orthogonality constraints.
+:::
+::: {.section-card}
+### [MSP-DA](https://aclanthology.org/2022.coling-1.420/)
+
+*COLING 2022 · [Code](https://github.com/ngotrnghia1811/MSP-DA)*
+
+Unsupervised domain adaptation for text classification via meta self-paced learning. Integrates MAML-style meta-learning with a neural self-paced learning module that dynamically partitions labeled source data into easy and hard subsets to simulate virtual domain shift during training.
+:::
+::: {.section-card}
+### [Event Detection with Gumbel-Softmax Context Selection](https://pmc.ncbi.nlm.nih.gov/articles/PMC7206272/)
+
+*PAKDD 2020 · [Code](https://github.com/ngotrnghia1811/eventdetection-gumbel)*
+
+Event detection model that learns to select the most relevant context words using the Straight-Through Gumbel-Softmax estimator, handling discrete word selection as differentiable hard attention during training. Avoids hand-crafted dependency rules through iterative context updates.
+:::
+:::
+
+## Other Research Projects
+
+::: {.card-grid}
+::: {.section-card}
+### Discourse Classification
+
+*Research project · [Code](https://github.com/ngotrnghia1811/discourse-classification)*
+
+Argumentative discourse parsing for student essays. Addresses the 512-token BERT constraint via a Hierarchical Document Encoder (HDE) that splits documents into overlapping segments, classifying discourse elements (Lead, Claim, Evidence, Counterclaim, Rebuttal, Concluding Statement) at the sentence level.
+:::
+:::
+
+## Software and Tools
+
+::: {.card-grid}
+::: {.section-card}
+### [agent-maker](https://github.com/ngotrnghia1811/agent-maker)
+
+*Software project*
+
+A declarative framework for compiling LLM agents from high-level specifications — interactive interview, preset shortcuts, or JSON spec driven. Supports 7 providers (Claude, Gemini, GPT, Perplexity, OpenAI, OpenRouter, GitHub Copilot) across 3 transport layers (browser automation, HTTP API, CLI subprocess) with a unified async runtime and multi-agent monitoring.
+:::
+::: {.section-card}
+### [Kendo Translation Platform](https://github.com/ngotrnghia1811/kendo-translation)
+
+*Software project*
+
+A collaborative Japanese–English translation platform for kendo instructional content. Features a MAC-RAG (Multi-Agent Collaborative RAG) AI pipeline with keigo detection, terminology database, multi-candidate generation, quality scoring, and real-time collaborative editing backed by Supabase.
+:::
+:::

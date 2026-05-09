@@ -1,0 +1,122 @@
+---
+title: Publications
+page-layout: full
+toc: false
+---
+
+This page is based on the publication list in the CV materials in this workspace. For the most current list, see [Google Scholar](https://scholar.google.com/citations?hl=en&user=VARfksAAAAAJ&view_op=list_works&sortby=pubdate).
+
+## 2025
+
+::: {.pub-list}
+::: {.pub-item}
+### [mSCoRe: a Multilingual and Scalable Benchmark for Skill-based Commonsense Reasoning](https://arxiv.org/pdf/2508.10137)
+
+**Nghia Trung Ngo**, Franck Dernoncourt, Thien Huu Nguyen  
+*Proceedings of LREC 2026*
+:::
+::: {.pub-item}
+### [Comprehensive and Practical Evaluation of Retrieval-Augmented Generation Systems for Medical Question Answering](https://arxiv.org/abs/2411.09213)
+
+**Nghia Trung Ngo**, Chien Van Nguyen, Franck Dernoncourt, Thien Huu Nguyen  
+*AAAI 2026 Workshop on AI for Scientific Research*
+:::
+::: {.pub-item}
+### ULLME: A Unified Framework for Large Language Model Embeddings with Generation-Augmented Learning
+
+Hieu Man, **Nghia Trung Ngo**, Franck Dernoncourt, Thien Huu Nguyen  
+*EMNLP 2024 System Demonstrations*
+:::
+::: {.pub-item}
+### [Hierarchical Selection of Important Context for Generative Event Causality Identification with Optimal Transports](https://aclanthology.org/2024.lrec-main.711)
+
+Hieu Man, Chien Van Nguyen, **Nghia Trung Ngo**, Linh Ngo, Franck Dernoncourt, Thien Huu Nguyen  
+*LREC-COLING 2024*
+:::
+:::
+
+## 2024
+
+::: {.pub-list}
+::: {.pub-item}
+### [Zero-shot Cross-lingual Transfer Learning with Multiple Source and Target Languages for Information Extraction: Language Selection and Adversarial Training](https://arxiv.org/abs/2411.08785)
+
+**Nghia Trung Ngo**, Thien Huu Nguyen  
+*arXiv preprint, 2024*
+:::
+::: {.pub-item}
+### [CulturaX: A Cleaned, Enormous, and Multilingual Dataset for Large Language Models in 167 Languages](https://aclanthology.org/2024.lrec-main.377)
+
+Thuat Nguyen, Chien Van Nguyen, Viet Dac Lai, Hieu Man, **Nghia Trung Ngo**, Franck Dernoncourt, Ryan A. Rossi, Thien Huu Nguyen  
+*LREC-COLING 2024*
+:::
+::: {.pub-item}
+### Okapi: Instruction-tuned Large Language Models in Multiple Languages with Reinforcement Learning from Human Feedback
+
+Viet Dac Lai, Chien Van Nguyen, **Nghia Trung Ngo**, Thuat Nguyen, Franck Dernoncourt, Ryan A. Rossi, Thien Huu Nguyen  
+*EMNLP 2023 System Demonstrations*
+:::
+::: {.pub-item}
+### [ChatGPT Beyond English: Towards a Comprehensive Evaluation of Large Language Models in Multilingual Learning](https://aclanthology.org/2023.findings-emnlp.878)
+
+Viet Dac Lai, **Nghia Trung Ngo**, Amir Pouran Ben Veyseh, Hieu Man, Franck Dernoncourt, Trung Bui, Thien Huu Nguyen  
+*Findings of EMNLP 2023*
+:::
+:::
+
+## 2022
+
+::: {.pub-list}
+::: {.pub-item}
+### [Unsupervised Domain Adaptation for Joint Information Extraction](https://aclanthology.org/2022.findings-emnlp.434/)
+
+**Nghia Trung Ngo**, Bonan Min, Thien Nguyen  
+*Findings of EMNLP 2022*
+:::
+::: {.pub-item}
+### [Unsupervised Domain Adaptation for Text Classification via Meta Self-paced Learning](https://aclanthology.org/2022.coling-1.420/)
+
+**Nghia Trung Ngo**, Linh Van Ngo, Thien Huu Nguyen  
+*COLING 2022*
+:::
+::: {.pub-item}
+### [Selecting Optimal Context Sentences for Event-Event Relation Extraction](https://ojs.aaai.org/index.php/AAAI/article/view/21354)
+
+Hieu Man, **Nghia Trung Ngo**, Linh Ngo Van, Thien Huu Nguyen  
+*AAAI 2022*
+:::
+::: {.pub-item}
+### FAMIE: A Fast Active Learning Framework for Multilingual Information Extraction
+
+Minh Van Nguyen, **Nghia Trung Ngo**, Bonan Min, Thien Huu Nguyen  
+*NAACL 2022 System Demonstrations*
+:::
+:::
+
+## 2021
+
+::: {.pub-list}
+::: {.pub-item}
+### [Unsupervised Domain Adaptation for Event Detection using Domain-specific Adapters](https://aclanthology.org/2021.findings-acl.351/)
+
+**Nghia Trung Ngo**, Duy Phung, Thien Huu Nguyen  
+*Findings of ACL-IJCNLP 2021*
+:::
+::: {.pub-item}
+### Modeling Document-level Context for Event Detection via Important Context Selection
+
+Amir Pouran Ben Veyseh, Minh Van Nguyen, **Nghia Trung Ngo**, Bonan Min, Thien Huu Nguyen  
+*EMNLP 2021*
+:::
+:::
+
+## 2020
+
+::: {.pub-list}
+::: {.pub-item}
+### [Learning to Select Important Context Words for Event Detection](https://pmc.ncbi.nlm.nih.gov/articles/PMC7206272/)
+
+**Nghia Trung Ngo**, Tuan Ngo Nguyen, Thien Huu Nguyen  
+*PAKDD 2020*
+:::
+:::

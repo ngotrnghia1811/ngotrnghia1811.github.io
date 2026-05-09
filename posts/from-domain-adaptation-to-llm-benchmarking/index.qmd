@@ -1,0 +1,40 @@
+---
+title: "From domain adaptation to LLM benchmarking"
+description: "How my earlier work on transfer and generalization leads naturally to current work on multilingual and retrieval-augmented evaluation."
+date: "2026-04-21"
+categories:
+  - research
+  - evaluation
+  - multilingual
+toc: true
+---
+
+My recent work on multilingual and retrieval-augmented evaluation did not start from nowhere. It grew out of an earlier question that has been consistent across projects: what happens when the assumptions made by training data and benchmark design stop matching the setting where a system is actually used?
+
+## Earlier Work: Generalization Under Shift
+
+My earlier research focused on domain adaptation, event detection, and information extraction. In those projects, the main challenge was transfer: a model learned from one domain but was expected to work in another, often with different distributions, different vocabulary, or different evidence structure.
+
+That line of work pushed me toward a broader view of robustness. Performance on a benchmark is only part of the story. The harder and more important question is how well the model behaves when the data, language, or task structure changes.
+
+## Why the Same Question Shows Up in LLM Evaluation
+
+Large language models change the scale of the problem, but not the core issue. A benchmark can still be too narrow, too clean, or too easy to overfit conceptually. This is especially visible in multilingual evaluation and retrieval-augmented generation.
+
+In multilingual settings, translation alone is not enough. Systems need to handle knowledge that is distributed differently across languages and cultures. In retrieval-augmented settings, success depends not only on generation quality but also on whether the evidence is relevant, reliable, and appropriately integrated.
+
+## What I Want Benchmarks to Measure Better
+
+There are three things I want new evaluations to capture more directly.
+
+1. Robustness to noisy or misleading evidence.
+2. Integration of diverse knowledge sources, especially across languages.
+3. Reasoning behavior that becomes visible only when the task grows more complex.
+
+These are the conditions where a system becomes useful or unreliable in practice. They are also the conditions that simpler benchmarks often wash away.
+
+## Where This Leads
+
+This is why my current work emphasizes benchmark design for multilingual evaluation, medical RAG, and more demanding reasoning settings. The goal is not only to rank models, but to make evaluation informative enough to guide better systems.
+
+That is the thread connecting my earlier research to my current direction: not a change in topic so much as a stronger commitment to testing models under the kinds of variation they will actually face.

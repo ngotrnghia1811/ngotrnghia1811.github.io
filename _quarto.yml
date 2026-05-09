@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+    - projects.qmd
+    - cv.qmd
+    - blog.qmd
+    - posts/**/*.qmd
+
+website:
+  title: "Nghia Trung Ngo"
+  site-url: https://ngotrnghia1811.github.io
+  description: "Personal website of Nghia Trung Ngo, Ph.D. student in Computer Science at the University of Oregon."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+      - href: blog.qmd
+        text: Blog
+    right:
+      - icon: envelope-fill
+        href: mailto:nghian@uoregon.edu
+        aria-label: Email
+      - text: Scholar
+        href: https://scholar.google.com/citations?hl=en&user=VARfksAAAAAJ&view_op=list_works&sortby=pubdate
+      - text: CV PDF
+        href: files/nghia-trung-ngo-cv.pdf
+  page-footer:
+    left: "Nghia Trung Ngo"
+    right: "Built with Quarto and designed for GitHub Pages."
+  search: true
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+    code-copy: true
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

@@ -1,0 +1,73 @@
+---
+title: Research
+page-layout: full
+---
+
+## Overview
+
+My research focuses on machine learning and natural language processing under generalized and realistic conditions. Across projects, the common theme is robustness: how models transfer across domains, languages, tasks, and evidence conditions, and how we evaluate them when benchmarks no longer reflect real-world complexity.
+
+## Theme 1: Domain Adaptation for Information Extraction
+
+My earlier work focused on domain adaptation for event detection and joint information extraction. The goal was to improve performance when training and test data come from different domains, without assuming abundant labeled data in the target domain.
+
+Representative directions:
+
+- Domain-specific adapters for event detection with layer-wise adversarial alignment and Wasserstein sample selection ([DAA](https://aclanthology.org/2021.findings-acl.351/), Findings of ACL-IJCNLP 2021).
+- Meta self-paced learning for text classification under domain shift, integrating MAML-style meta-learning with dynamic curriculum selection ([MSP-DA](https://aclanthology.org/2022.coling-1.420/), COLING 2022).
+- Joint modeling for four information extraction tasks simultaneously under domain shift, using instance-relational adversarial training ([DA4JIE](https://aclanthology.org/2022.findings-emnlp.434/), Findings of EMNLP 2022).
+
+## Theme 2: Multilingual and Multi-Task Learning
+
+I am interested in transfer settings where the model must generalize across multiple source and target languages rather than a single source-target pair. This includes multilingual evaluation, language selection, and settings where transfer structure matters as much as scale.
+
+Representative directions:
+
+- Cross-lingual transfer for information extraction with principled multi-source language selection via linguistic distance metrics and graph-relational domain adaptation ([ZSRL](https://arxiv.org/abs/2411.08785), Findings of ACL 2023).
+- Multilingual datasets and benchmarks, including [CulturaX](https://aclanthology.org/2024.lrec-main.377) (167 languages, LREC-COLING 2024) and [ChatGPT Beyond English](https://aclanthology.org/2023.findings-emnlp.878) (37 languages, 7 tasks, Findings of EMNLP 2023).
+- Language-disentangled pre-training that explicitly separates language-specific and language-agnostic representations via knowledge distillation (LDD).
+- Federated learning for multilingual NLP with personalized tokenizers and semi-asynchronous tier training, reducing per-round communication payload by over 90% (MlFD).
+
+## Theme 3: LLM Benchmarking and Evaluation
+
+Recent work has shifted toward evaluation for large language models, particularly where standard benchmarks are too clean or too narrow. I am interested in benchmarks that test integration, reasoning, and robustness rather than isolated point performance.
+
+Current directions:
+
+- Multilingual commonsense reasoning with dynamic complexity scaling across 5 languages and 10 reasoning skills ([mSCoRe](https://arxiv.org/pdf/2508.10137), LREC 2026).
+- Multi-hop question answering via MCTS-guided Explore–Solve–Verify planning, where an agent selects adaptive action sequences based on question complexity (ESV-RAG, in progress).
+- Harder commonsense and task-based reasoning benchmarks that expose model limitations as task complexity increases.
+
+## Theme 4: Retrieval-Augmented Systems in Practical Settings
+
+Retrieval-augmented generation is often evaluated in idealized pipelines. I am interested in what happens when evidence is incomplete, noisy, or misleading, especially in domains such as medical question answering where reliability matters as much as accuracy.
+
+What this theme emphasizes:
+
+- Evidence quality and trustworthiness across four practical test scenarios: Standard-RAG, Sufficiency, Integration, and Robustness ([MedRGB](https://arxiv.org/abs/2411.09213), AAAI 2026 Workshop).
+- Robustness to noise and adversarial misinformation in retrieved documents.
+- Evaluation protocols that scale with model capability and signal-to-noise ratio.
+
+## Current Work Snapshot
+
+::: {.card-grid}
+::: {.section-card}
+### Medical RAG Benchmarking
+
+[MedRGB](https://arxiv.org/abs/2411.09213) evaluates medical RAG systems across four practical scenarios with varying proportions of signal and noise documents, assessing reliability and trustworthiness beyond accuracy alone.
+:::
+::: {.section-card}
+### Multilingual Commonsense Reasoning
+
+[mSCoRe](https://arxiv.org/pdf/2508.10137) introduces 5,600 multilingual skill-annotated commonsense questions with dynamic complexity scaling (L0–L3) across 10 reasoning skills and 5 languages.
+:::
+::: {.section-card}
+### MCTS-Guided Multi-hop QA
+
+ESV-RAG formulates multi-hop question answering as a planning problem solved by Monte Carlo Tree Search, where an agent adaptively selects Explore, Solve, or Verify actions.
+:::
+:::
+
+## Broader Goal
+
+My long-term goal is to build evaluation settings and learning methods that keep pace with model capability. That means moving away from narrow, static benchmarks and toward systems that are tested under the kinds of ambiguity, noise, and variation they will face in real use.

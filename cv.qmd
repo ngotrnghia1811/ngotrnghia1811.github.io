@@ -1,0 +1,63 @@
+---
+title: CV
+page-layout: full
+---
+
+[Download the full CV as PDF](files/nghia-trung-ngo-cv.pdf){.hero-link .hero-link-primary}
+
+## Profile
+
+Nghia Trung Ngo is a Ph.D. student in Computer Science at the University of Oregon. His research focuses on generalized learning settings, including domain adaptation, multilingual learning, multi-task learning, retrieval-augmented generation, and benchmark design for large language models.
+
+## Education
+
+### University of Oregon
+
+Ph.D. in Computer Science, 2022 to present  
+Advisor: Prof. Thien Huu Nguyen
+
+### Hanoi University of Science and Technology
+
+B.S. in Information Technology, 2015 to 2021  
+Advisor: Dr. Linh Ngo Van  
+Thesis: *Unsupervised Domain Adaptation for Event Detection*
+
+## Research Experience
+
+### Research Assistant, University of Oregon
+
+2022 to present
+
+- Research topics include transfer learning, multilingual learning, and multi-task learning.
+- Developed work on joint learning for multiple information extraction tasks in domain adaptation settings.
+- Introduced generalized multi-transfer settings for cross-lingual learning.
+- Current directions include medical RAG benchmarking, multilingual knowledge integration, and complex commonsense reasoning benchmarks.
+
+### NLP Research Resident, VinAI Research
+
+2020 to 2021
+
+- Worked on domain adaptation and event extraction.
+- Proposed adapter-based representation learning for unsupervised domain adaptation in event detection.
+- Contributed to an applied project benchmarking vision transformers on fisheye images for autonomous driving.
+
+### Research Student, Data Science Laboratory, HUST
+
+2018 to 2019
+
+- Worked on machine learning foundations and probabilistic topic modeling.
+
+## Awards
+
+- Lorry I. Lokey Interdisciplinary Science Initiative Dissertation Scholarship, University of Oregon, 2025
+- Erwin & Gertrude Juilfs Scholarship in Computer Science, University of Oregon, 2023
+
+## Service
+
+- Reviewer for ACL, NAACL, EMNLP, AAAI, ICLR, NeurIPS, COLING, and COLM.
+- Additional recent reviewing includes AAAI 2026, COLM 2025, AAAI 2025, ICLR 2025, ICML 2024, and NeurIPS 2023.
+
+## Skills
+
+- Languages: Vietnamese (native), English (IELTS 7.5 overall)
+- Programming: Python proficient; familiar with C, Java, and SQL
