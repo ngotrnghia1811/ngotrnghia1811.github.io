@@ -13,7 +13,7 @@ This page is based on the publication list in the CV materials in this workspace
 ### [mSCoRe: a Multilingual and Scalable Benchmark for Skill-based Commonsense Reasoning](https://arxiv.org/pdf/2508.10137)
 
 **Nghia Trung Ngo**, Franck Dernoncourt, Thien Huu Nguyen  
-*Proceedings of LREC 2026*
+*LREC-COLING 2026*
 :::
 ::: {.pub-item}
 ### [Comprehensive and Practical Evaluation of Retrieval-Augmented Generation Systems for Medical Question Answering](https://arxiv.org/abs/2411.09213)

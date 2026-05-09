@@ -69,7 +69,7 @@ My recent work examines how multilingual systems combine knowledge from distinct
 ::: {.section-card}
 ### Harder Reasoning Benchmarks
 
-I am interested in benchmarks that scale with model capability. [mSCoRe](https://arxiv.org/pdf/2508.10137) introduces dynamic complexity scaling (L0–L3) across 10 reasoning skills, and I am currently working on multi-hop question answering via MCTS-guided planning.
+I am interested in benchmarks that scale with model capability. [mSCoRe](https://arxiv.org/pdf/2508.10137) introduces dynamic complexity scaling (L0–L3) across 10 reasoning skills. [ESV-RAG](projects.qmd) extends this to multi-hop QA through MCTS-guided Explore–Solve–Verify planning.
 :::
 :::
 
@@ -80,7 +80,7 @@ I am interested in benchmarks that scale with model capability. [mSCoRe](https:/
 ### [mSCoRe: a Multilingual and Scalable Benchmark for Skill-based Commonsense Reasoning](https://arxiv.org/pdf/2508.10137)
 
 **Nghia Trung Ngo**, Franck Dernoncourt, Thien Huu Nguyen  
-*LREC 2026*
+*LREC-COLING 2026*
 :::
 ::: {.pub-item}
 ### [MedRGB: Practical Framework for Benchmarking Medical Retrieval-Augmented Generation Systems](https://arxiv.org/abs/2411.09213)

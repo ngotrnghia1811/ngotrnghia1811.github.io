@@ -12,7 +12,7 @@ This page highlights research projects, benchmarks, and software I have built or
 ::: {.section-card}
 ### [mSCoRe](https://arxiv.org/pdf/2508.10137)
 
-*LREC 2026 · [Code](https://github.com/ngotrnghia1811/mSCORE)*
+*LREC-COLING 2026 · [Code](https://github.com/ngotrnghia1811/mSCORE)*
 
 A multilingual and scalable benchmark for skill-based commonsense reasoning. Evaluates LLMs across **5 languages** and **10 reasoning skills** with dynamic complexity scaling (L0–L3) that progressively increases task difficulty. Contains 5,600 instances spanning general and social/cultural commonsense.
 :::

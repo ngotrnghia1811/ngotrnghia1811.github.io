@@ -34,7 +34,7 @@ Recent work has shifted toward evaluation for large language models, particularl
 
 Current directions:
 
-- Multilingual commonsense reasoning with dynamic complexity scaling across 5 languages and 10 reasoning skills ([mSCoRe](https://arxiv.org/pdf/2508.10137), LREC 2026).
+- Multilingual commonsense reasoning with dynamic complexity scaling across 5 languages and 10 reasoning skills ([mSCoRe](https://arxiv.org/pdf/2508.10137), LREC-COLING 2026).
 - Multi-hop question answering via MCTS-guided Explore–Solve–Verify planning, where an agent selects adaptive action sequences based on question complexity (ESV-RAG, in progress).
 - Harder commonsense and task-based reasoning benchmarks that expose model limitations as task complexity increases.
 
