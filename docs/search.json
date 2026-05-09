@@ -1,0 +1,282 @@
+[
+  {
+    "objectID": "posts/from-domain-adaptation-to-llm-benchmarking/index.html",
+    "href": "posts/from-domain-adaptation-to-llm-benchmarking/index.html",
+    "title": "From domain adaptation to LLM benchmarking",
+    "section": "",
+    "text": "My recent work on multilingual and retrieval-augmented evaluation did not start from nowhere. It grew out of an earlier question that has been consistent across projects: what happens when the assumptions made by training data and benchmark design stop matching the setting where a system is actually used?"
+  },
+  {
+    "objectID": "posts/from-domain-adaptation-to-llm-benchmarking/index.html#earlier-work-generalization-under-shift",
+    "href": "posts/from-domain-adaptation-to-llm-benchmarking/index.html#earlier-work-generalization-under-shift",
+    "title": "From domain adaptation to LLM benchmarking",
+    "section": "Earlier Work: Generalization Under Shift",
+    "text": "Earlier Work: Generalization Under Shift\nMy earlier research focused on domain adaptation, event detection, and information extraction. In those projects, the main challenge was transfer: a model learned from one domain but was expected to work in another, often with different distributions, different vocabulary, or different evidence structure.\nThat line of work pushed me toward a broader view of robustness. Performance on a benchmark is only part of the story. The harder and more important question is how well the model behaves when the data, language, or task structure changes."
+  },
+  {
+    "objectID": "posts/from-domain-adaptation-to-llm-benchmarking/index.html#why-the-same-question-shows-up-in-llm-evaluation",
+    "href": "posts/from-domain-adaptation-to-llm-benchmarking/index.html#why-the-same-question-shows-up-in-llm-evaluation",
+    "title": "From domain adaptation to LLM benchmarking",
+    "section": "Why the Same Question Shows Up in LLM Evaluation",
+    "text": "Why the Same Question Shows Up in LLM Evaluation\nLarge language models change the scale of the problem, but not the core issue. A benchmark can still be too narrow, too clean, or too easy to overfit conceptually. This is especially visible in multilingual evaluation and retrieval-augmented generation.\nIn multilingual settings, translation alone is not enough. Systems need to handle knowledge that is distributed differently across languages and cultures. In retrieval-augmented settings, success depends not only on generation quality but also on whether the evidence is relevant, reliable, and appropriately integrated."
+  },
+  {
+    "objectID": "posts/from-domain-adaptation-to-llm-benchmarking/index.html#what-i-want-benchmarks-to-measure-better",
+    "href": "posts/from-domain-adaptation-to-llm-benchmarking/index.html#what-i-want-benchmarks-to-measure-better",
+    "title": "From domain adaptation to LLM benchmarking",
+    "section": "What I Want Benchmarks to Measure Better",
+    "text": "What I Want Benchmarks to Measure Better\nThere are three things I want new evaluations to capture more directly.\n\nRobustness to noisy or misleading evidence.\nIntegration of diverse knowledge sources, especially across languages.\nReasoning behavior that becomes visible only when the task grows more complex.\n\nThese are the conditions where a system becomes useful or unreliable in practice. They are also the conditions that simpler benchmarks often wash away."
+  },
+  {
+    "objectID": "posts/from-domain-adaptation-to-llm-benchmarking/index.html#where-this-leads",
+    "href": "posts/from-domain-adaptation-to-llm-benchmarking/index.html#where-this-leads",
+    "title": "From domain adaptation to LLM benchmarking",
+    "section": "Where This Leads",
+    "text": "Where This Leads\nThis is why my current work emphasizes benchmark design for multilingual evaluation, medical RAG, and more demanding reasoning settings. The goal is not only to rank models, but to make evaluation informative enough to guide better systems.\nThat is the thread connecting my earlier research to my current direction: not a change in topic so much as a stronger commitment to testing models under the kinds of variation they will actually face."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download the full CV as PDF"
+  },
+  {
+    "objectID": "cv.html#profile",
+    "href": "cv.html#profile",
+    "title": "CV",
+    "section": "Profile",
+    "text": "Profile\nNghia Trung Ngo is a Ph.D. student in Computer Science at the University of Oregon. His research focuses on generalized learning settings, including domain adaptation, multilingual learning, multi-task learning, retrieval-augmented generation, and benchmark design for large language models."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nUniversity of Oregon\nPh.D. in Computer Science, 2022 to present\nAdvisor: Prof. Thien Huu Nguyen\n\n\nHanoi University of Science and Technology\nB.S. in Information Technology, 2015 to 2021\nAdvisor: Dr. Linh Ngo Van\nThesis: Unsupervised Domain Adaptation for Event Detection"
+  },
+  {
+    "objectID": "cv.html#research-experience",
+    "href": "cv.html#research-experience",
+    "title": "CV",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nResearch Assistant, University of Oregon\n2022 to present\n\nResearch topics include transfer learning, multilingual learning, and multi-task learning.\nDeveloped work on joint learning for multiple information extraction tasks in domain adaptation settings.\nIntroduced generalized multi-transfer settings for cross-lingual learning.\nCurrent directions include medical RAG benchmarking, multilingual knowledge integration, and complex commonsense reasoning benchmarks.\n\n\n\nNLP Research Resident, VinAI Research\n2020 to 2021\n\nWorked on domain adaptation and event extraction.\nProposed adapter-based representation learning for unsupervised domain adaptation in event detection.\nContributed to an applied project benchmarking vision transformers on fisheye images for autonomous driving.\n\n\n\nResearch Student, Data Science Laboratory, HUST\n2018 to 2019\n\nWorked on machine learning foundations and probabilistic topic modeling."
+  },
+  {
+    "objectID": "cv.html#awards",
+    "href": "cv.html#awards",
+    "title": "CV",
+    "section": "Awards",
+    "text": "Awards\n\nLorry I. Lokey Interdisciplinary Science Initiative Dissertation Scholarship, University of Oregon, 2025\nErwin & Gertrude Juilfs Scholarship in Computer Science, University of Oregon, 2023"
+  },
+  {
+    "objectID": "cv.html#service",
+    "href": "cv.html#service",
+    "title": "CV",
+    "section": "Service",
+    "text": "Service\n\nReviewer for ACL, NAACL, EMNLP, AAAI, ICLR, NeurIPS, COLING, and COLM.\nAdditional recent reviewing includes AAAI 2026, COLM 2025, AAAI 2025, ICLR 2025, ICML 2024, and NeurIPS 2023."
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "CV",
+    "section": "Skills",
+    "text": "Skills\n\nLanguages: Vietnamese (native), English (IELTS 7.5 overall)\nProgramming: Python proficient; familiar with C, Java, and SQL"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "This page is based on the publication list in the CV materials in this workspace. For the most current list, see Google Scholar."
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\n\n\nmSCoRe: a Multilingual and Scalable Benchmark for Skill-based Commonsense Reasoning\nNghia Trung Ngo, Franck Dernoncourt, Thien Huu Nguyen\nLREC-COLING 2026\n\n\nComprehensive and Practical Evaluation of Retrieval-Augmented Generation Systems for Medical Question Answering\nNghia Trung Ngo, Chien Van Nguyen, Franck Dernoncourt, Thien Huu Nguyen\nAAAI 2026 Workshop on AI for Scientific Research\n\n\nULLME: A Unified Framework for Large Language Model Embeddings with Generation-Augmented Learning\nHieu Man, Nghia Trung Ngo, Franck Dernoncourt, Thien Huu Nguyen\nEMNLP 2024 System Demonstrations\n\n\nHierarchical Selection of Important Context for Generative Event Causality Identification with Optimal Transports\nHieu Man, Chien Van Nguyen, Nghia Trung Ngo, Linh Ngo, Franck Dernoncourt, Thien Huu Nguyen\nLREC-COLING 2024"
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2024",
+    "text": "2024\n\n\nZero-shot Cross-lingual Transfer Learning with Multiple Source and Target Languages for Information Extraction: Language Selection and Adversarial Training\nNghia Trung Ngo, Thien Huu Nguyen\narXiv preprint, 2024\n\n\nCulturaX: A Cleaned, Enormous, and Multilingual Dataset for Large Language Models in 167 Languages\nThuat Nguyen, Chien Van Nguyen, Viet Dac Lai, Hieu Man, Nghia Trung Ngo, Franck Dernoncourt, Ryan A. Rossi, Thien Huu Nguyen\nLREC-COLING 2024\n\n\nOkapi: Instruction-tuned Large Language Models in Multiple Languages with Reinforcement Learning from Human Feedback\nViet Dac Lai, Chien Van Nguyen, Nghia Trung Ngo, Thuat Nguyen, Franck Dernoncourt, Ryan A. Rossi, Thien Huu Nguyen\nEMNLP 2023 System Demonstrations\n\n\nChatGPT Beyond English: Towards a Comprehensive Evaluation of Large Language Models in Multilingual Learning\nViet Dac Lai, Nghia Trung Ngo, Amir Pouran Ben Veyseh, Hieu Man, Franck Dernoncourt, Trung Bui, Thien Huu Nguyen\nFindings of EMNLP 2023"
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\n\n\nUnsupervised Domain Adaptation for Joint Information Extraction\nNghia Trung Ngo, Bonan Min, Thien Nguyen\nFindings of EMNLP 2022\n\n\nUnsupervised Domain Adaptation for Text Classification via Meta Self-paced Learning\nNghia Trung Ngo, Linh Van Ngo, Thien Huu Nguyen\nCOLING 2022\n\n\nSelecting Optimal Context Sentences for Event-Event Relation Extraction\nHieu Man, Nghia Trung Ngo, Linh Ngo Van, Thien Huu Nguyen\nAAAI 2022\n\n\nFAMIE: A Fast Active Learning Framework for Multilingual Information Extraction\nMinh Van Nguyen, Nghia Trung Ngo, Bonan Min, Thien Huu Nguyen\nNAACL 2022 System Demonstrations"
+  },
+  {
+    "objectID": "publications.html#section-3",
+    "href": "publications.html#section-3",
+    "title": "Publications",
+    "section": "2021",
+    "text": "2021\n\n\nUnsupervised Domain Adaptation for Event Detection using Domain-specific Adapters\nNghia Trung Ngo, Duy Phung, Thien Huu Nguyen\nFindings of ACL-IJCNLP 2021\n\n\nModeling Document-level Context for Event Detection via Important Context Selection\nAmir Pouran Ben Veyseh, Minh Van Nguyen, Nghia Trung Ngo, Bonan Min, Thien Huu Nguyen\nEMNLP 2021"
+  },
+  {
+    "objectID": "publications.html#section-4",
+    "href": "publications.html#section-4",
+    "title": "Publications",
+    "section": "2020",
+    "text": "2020\n\n\nLearning to Select Important Context Words for Event Detection\nNghia Trung Ngo, Tuan Ngo Nguyen, Thien Huu Nguyen\nPAKDD 2020"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "NLP · Multilingual Learning · LLM Evaluation\n\n\n\nPh.D. student in Computer Science at the University of Oregon, advised by Prof. Thien Huu Nguyen.\nI study learning and evaluation in generalized settings, with a focus on domain adaptation, multilingual learning, multi-task learning, and the behavior of large language models in practical environments. My recent work centers on multilingual benchmarks, retrieval-augmented generation, and evaluation settings that better reflect noisy, real-world use.\n\nDownload CV Research Overview Google Scholar"
+  },
+  {
+    "objectID": "index.html#research-themes",
+    "href": "index.html#research-themes",
+    "title": "Home",
+    "section": "Research Themes",
+    "text": "Research Themes\n\nDomain adaptation for information extraction Multilingual and multi-task learning LLM benchmarking and evaluation Retrieval-augmented generation Robust AI systems in practical settings"
+  },
+  {
+    "objectID": "index.html#current-directions",
+    "href": "index.html#current-directions",
+    "title": "Home",
+    "section": "Current Directions",
+    "text": "Current Directions\n\n\nMedical RAG Reliability\nMedRGB is a benchmarking framework that evaluates medical RAG systems across four practical scenarios — Standard-RAG, Sufficiency, Integration, and Robustness — going beyond accuracy to assess reliability under noise, insufficient evidence, and adversarial misinformation.\n\n\nMultilingual Knowledge Integration\nMy recent work examines how multilingual systems combine knowledge from distinct language and cultural sources, rather than treating translation as a sufficient evaluation proxy. This includes mSCoRe, a benchmark for skill-based commonsense reasoning across 5 languages and 10 reasoning skills.\n\n\nHarder Reasoning Benchmarks\nI am interested in benchmarks that scale with model capability. mSCoRe introduces dynamic complexity scaling (L0–L3) across 10 reasoning skills. ESV-RAG extends this to multi-hop QA through MCTS-guided Explore–Solve–Verify planning."
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Home",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\n\nmSCoRe: a Multilingual and Scalable Benchmark for Skill-based Commonsense Reasoning\nNghia Trung Ngo, Franck Dernoncourt, Thien Huu Nguyen\nLREC-COLING 2026\n\n\nMedRGB: Practical Framework for Benchmarking Medical Retrieval-Augmented Generation Systems\nNghia Trung Ngo, Chien Van Nguyen, Franck Dernoncourt, Thien Huu Nguyen\nAAAI 2026 Workshop on AI for Scientific Research\n\n\nChatGPT Beyond English: Towards a Comprehensive Evaluation of Large Language Models in Multilingual Learning\nViet Dac Lai, Nghia Trung Ngo, Amir Pouran Ben Veyseh, Hieu Man, Franck Dernoncourt, Trung Bui, Thien Huu Nguyen\nFindings of EMNLP 2023\n\n\nCulturaX: A Cleaned, Enormous, and Multilingual Dataset for Large Language Models in 167 Languages\nThuat Nguyen, Chien Van Nguyen, Viet Dac Lai, Hieu Man, Nghia Trung Ngo, Franck Dernoncourt, Ryan A. Rossi, Thien Huu Nguyen\nLREC-COLING 2024\n\n\nUnsupervised Domain Adaptation for Event Detection using Domain-specific Adapters\nNghia Trung Ngo, Duy Phung, Thien Huu Nguyen\nFindings of ACL-IJCNLP 2021\n\n\nView full publication list"
+  },
+  {
+    "objectID": "index.html#awards-and-service",
+    "href": "index.html#awards-and-service",
+    "title": "Home",
+    "section": "Awards and Service",
+    "text": "Awards and Service\n\n\nAwards\n\nLorry I. Lokey Interdisciplinary Science Initiative Dissertation Scholarship, University of Oregon, 2025\nErwin & Gertrude Juilfs Scholarship in Computer Science, University of Oregon, 2023\n\n\n\nReviewing\nACL, NAACL, EMNLP, AAAI, ICLR, NeurIPS, COLING, and COLM."
+  },
+  {
+    "objectID": "index.html#writing",
+    "href": "index.html#writing",
+    "title": "Home",
+    "section": "Writing",
+    "text": "Writing\nThe blog is where I plan to write shorter research notes on multilingual evaluation, medical RAG, benchmark design, and the transition from domain adaptation work toward LLM evaluation.\nRead the blog"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on machine learning and natural language processing under generalized and realistic conditions. Across projects, the common theme is robustness: how models transfer across domains, languages, tasks, and evidence conditions, and how we evaluate them when benchmarks no longer reflect real-world complexity."
+  },
+  {
+    "objectID": "research.html#overview",
+    "href": "research.html#overview",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on machine learning and natural language processing under generalized and realistic conditions. Across projects, the common theme is robustness: how models transfer across domains, languages, tasks, and evidence conditions, and how we evaluate them when benchmarks no longer reflect real-world complexity."
+  },
+  {
+    "objectID": "research.html#theme-1-domain-adaptation-for-information-extraction",
+    "href": "research.html#theme-1-domain-adaptation-for-information-extraction",
+    "title": "Research",
+    "section": "Theme 1: Domain Adaptation for Information Extraction",
+    "text": "Theme 1: Domain Adaptation for Information Extraction\nMy earlier work focused on domain adaptation for event detection and joint information extraction. The goal was to improve performance when training and test data come from different domains, without assuming abundant labeled data in the target domain.\nRepresentative directions:\n\nDomain-specific adapters for event detection with layer-wise adversarial alignment and Wasserstein sample selection (DAA, Findings of ACL-IJCNLP 2021).\nMeta self-paced learning for text classification under domain shift, integrating MAML-style meta-learning with dynamic curriculum selection (MSP-DA, COLING 2022).\nJoint modeling for four information extraction tasks simultaneously under domain shift, using instance-relational adversarial training (DA4JIE, Findings of EMNLP 2022)."
+  },
+  {
+    "objectID": "research.html#theme-2-multilingual-and-multi-task-learning",
+    "href": "research.html#theme-2-multilingual-and-multi-task-learning",
+    "title": "Research",
+    "section": "Theme 2: Multilingual and Multi-Task Learning",
+    "text": "Theme 2: Multilingual and Multi-Task Learning\nI am interested in transfer settings where the model must generalize across multiple source and target languages rather than a single source-target pair. This includes multilingual evaluation, language selection, and settings where transfer structure matters as much as scale.\nRepresentative directions:\n\nCross-lingual transfer for information extraction with principled multi-source language selection via linguistic distance metrics and graph-relational domain adaptation (ZSRL, Findings of ACL 2023).\nMultilingual datasets and benchmarks, including CulturaX (167 languages, LREC-COLING 2024) and ChatGPT Beyond English (37 languages, 7 tasks, Findings of EMNLP 2023).\nLanguage-disentangled pre-training that explicitly separates language-specific and language-agnostic representations via knowledge distillation (LDD).\nFederated learning for multilingual NLP with personalized tokenizers and semi-asynchronous tier training, reducing per-round communication payload by over 90% (MlFD)."
+  },
+  {
+    "objectID": "research.html#theme-3-llm-benchmarking-and-evaluation",
+    "href": "research.html#theme-3-llm-benchmarking-and-evaluation",
+    "title": "Research",
+    "section": "Theme 3: LLM Benchmarking and Evaluation",
+    "text": "Theme 3: LLM Benchmarking and Evaluation\nRecent work has shifted toward evaluation for large language models, particularly where standard benchmarks are too clean or too narrow. I am interested in benchmarks that test integration, reasoning, and robustness rather than isolated point performance.\nCurrent directions:\n\nMultilingual commonsense reasoning with dynamic complexity scaling across 5 languages and 10 reasoning skills (mSCoRe, LREC-COLING 2026).\nMulti-hop question answering via MCTS-guided Explore–Solve–Verify planning, where an agent selects adaptive action sequences based on question complexity (ESV-RAG, in progress).\nHarder commonsense and task-based reasoning benchmarks that expose model limitations as task complexity increases."
+  },
+  {
+    "objectID": "research.html#theme-4-retrieval-augmented-systems-in-practical-settings",
+    "href": "research.html#theme-4-retrieval-augmented-systems-in-practical-settings",
+    "title": "Research",
+    "section": "Theme 4: Retrieval-Augmented Systems in Practical Settings",
+    "text": "Theme 4: Retrieval-Augmented Systems in Practical Settings\nRetrieval-augmented generation is often evaluated in idealized pipelines. I am interested in what happens when evidence is incomplete, noisy, or misleading, especially in domains such as medical question answering where reliability matters as much as accuracy.\nWhat this theme emphasizes:\n\nEvidence quality and trustworthiness across four practical test scenarios: Standard-RAG, Sufficiency, Integration, and Robustness (MedRGB, AAAI 2026 Workshop).\nRobustness to noise and adversarial misinformation in retrieved documents.\nEvaluation protocols that scale with model capability and signal-to-noise ratio."
+  },
+  {
+    "objectID": "research.html#current-work-snapshot",
+    "href": "research.html#current-work-snapshot",
+    "title": "Research",
+    "section": "Current Work Snapshot",
+    "text": "Current Work Snapshot\n\n\nMedical RAG Benchmarking\nMedRGB evaluates medical RAG systems across four practical scenarios with varying proportions of signal and noise documents, assessing reliability and trustworthiness beyond accuracy alone.\n\n\nMultilingual Commonsense Reasoning\nmSCoRe introduces 5,600 multilingual skill-annotated commonsense questions with dynamic complexity scaling (L0–L3) across 10 reasoning skills and 5 languages.\n\n\nMCTS-Guided Multi-hop QA\nESV-RAG formulates multi-hop question answering as a planning problem solved by Monte Carlo Tree Search, where an agent adaptively selects Explore, Solve, or Verify actions."
+  },
+  {
+    "objectID": "research.html#broader-goal",
+    "href": "research.html#broader-goal",
+    "title": "Research",
+    "section": "Broader Goal",
+    "text": "Broader Goal\nMy long-term goal is to build evaluation settings and learning methods that keep pace with model capability. That means moving away from narrow, static benchmarks and toward systems that are tested under the kinds of ambiguity, noise, and variation they will face in real use."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This page highlights research projects, benchmarks, and software I have built or contributed to, grouped by research theme. For code, see GitHub."
+  },
+  {
+    "objectID": "projects.html#benchmarks-and-evaluation",
+    "href": "projects.html#benchmarks-and-evaluation",
+    "title": "Projects",
+    "section": "Benchmarks and Evaluation",
+    "text": "Benchmarks and Evaluation\n\n\nmSCoRe\nLREC-COLING 2026 · Code\nA multilingual and scalable benchmark for skill-based commonsense reasoning. Evaluates LLMs across 5 languages and 10 reasoning skills with dynamic complexity scaling (L0–L3) that progressively increases task difficulty. Contains 5,600 instances spanning general and social/cultural commonsense.\n\n\nMedRGB\nAAAI 2026 Workshop on AI for Scientific Research · Code\nA benchmarking framework for medical retrieval-augmented generation systems. Evaluates across four practical test scenarios — Standard-RAG, Sufficiency, Integration, and Robustness — with varying proportions of signal and noise documents, assessing reliability beyond accuracy alone."
+  },
+  {
+    "objectID": "projects.html#retrieval-augmented-generation",
+    "href": "projects.html#retrieval-augmented-generation",
+    "title": "Projects",
+    "section": "Retrieval-Augmented Generation",
+    "text": "Retrieval-Augmented Generation\n\n\nESV-RAG\nResearch project · Code\nExplore–Solve–Verify Reasoning-Augmented Generation with Monte Carlo Tree Search planning. Formulates multi-hop question answering as a planning problem where an agent selects optimal action sequences through PUCT-guided tree search. Achieves state-of-the-art results across multiple FlashRAG benchmark datasets."
+  },
+  {
+    "objectID": "projects.html#multilingual-learning-and-transfer",
+    "href": "projects.html#multilingual-learning-and-transfer",
+    "title": "Projects",
+    "section": "Multilingual Learning and Transfer",
+    "text": "Multilingual Learning and Transfer\n\n\nChatGPT Beyond English\nFindings of EMNLP 2023 · Code\nLarge-scale zero-shot evaluation of ChatGPT (GPT-3.5-turbo) on 7 NLP tasks across 37 languages spanning high-, medium-, low-, and extremely low-resource settings. Compares ChatGPT against state-of-the-art supervised models to quantify the multilingual gap.\n\n\nMultilingual Relational Transfer (ZSRL)\nFindings of ACL 2023 · Code\nZero-shot cross-lingual transfer for information extraction with multiple source and target languages. Introduces principled language selection via linguistic distance metrics and graph-relational domain adaptation (GrDA), yielding +3.0–3.7 F1 over random source selection.\n\n\nLanguage-Disentangle-Distillation\nResearch project · Code\nA compact multilingual pre-trained language model that explicitly disentangles language-specific and language-agnostic representations via knowledge distillation from XLM-RoBERTa. Uses dual hidden-state streams with Feature-wise Linear Modulation (FiLM) to address the curse of multilinguality.\n\n\nMultilingual Federated Distillation\nResearch project · Code\nA federated learning framework for multilingual NLP addressing data heterogeneity (different languages) and latency heterogeneity (different hardware). Combines semi-asynchronous tier training, personalized tokenizers, and federated distillation to reduce per-round communication payload by over 90%."
+  },
+  {
+    "objectID": "projects.html#domain-adaptation-for-information-extraction",
+    "href": "projects.html#domain-adaptation-for-information-extraction",
+    "title": "Projects",
+    "section": "Domain Adaptation for Information Extraction",
+    "text": "Domain Adaptation for Information Extraction\n\n\nDA4JIE\nFindings of EMNLP 2022 · Code\nUnsupervised domain adaptation for joint information extraction across four tasks simultaneously (entity mention, event trigger, relation, and event argument extraction). Proposes Instance-relational Domain Adaptation (IrDA) with a chain graph topology and Context-invariant Structure Learning (CiSL).\n\n\nDAA — Domain-specific Adapters for Event Detection\nFindings of ACL-IJCNLP 2021 · Code\nUnsupervised domain adaptation for event detection using three lightweight bottleneck adapters per BERT layer (source-private, target-private, joint). Combines layer-wise adversarial alignment with Wasserstein sample selection and orthogonality constraints.\n\n\nMSP-DA\nCOLING 2022 · Code\nUnsupervised domain adaptation for text classification via meta self-paced learning. Integrates MAML-style meta-learning with a neural self-paced learning module that dynamically partitions labeled source data into easy and hard subsets to simulate virtual domain shift during training.\n\n\nEvent Detection with Gumbel-Softmax Context Selection\nPAKDD 2020 · Code\nEvent detection model that learns to select the most relevant context words using the Straight-Through Gumbel-Softmax estimator, handling discrete word selection as differentiable hard attention during training. Avoids hand-crafted dependency rules through iterative context updates."
+  },
+  {
+    "objectID": "projects.html#other-research-projects",
+    "href": "projects.html#other-research-projects",
+    "title": "Projects",
+    "section": "Other Research Projects",
+    "text": "Other Research Projects\n\n\nDiscourse Classification\nResearch project · Code\nArgumentative discourse parsing for student essays. Addresses the 512-token BERT constraint via a Hierarchical Document Encoder (HDE) that splits documents into overlapping segments, classifying discourse elements (Lead, Claim, Evidence, Counterclaim, Rebuttal, Concluding Statement) at the sentence level."
+  },
+  {
+    "objectID": "projects.html#software-and-tools",
+    "href": "projects.html#software-and-tools",
+    "title": "Projects",
+    "section": "Software and Tools",
+    "text": "Software and Tools\n\n\nagent-maker\nSoftware project\nA declarative framework for compiling LLM agents from high-level specifications — interactive interview, preset shortcuts, or JSON spec driven. Supports 7 providers (Claude, Gemini, GPT, Perplexity, OpenAI, OpenRouter, GitHub Copilot) across 3 transport layers (browser automation, HTTP API, CLI subprocess) with a unified async runtime and multi-agent monitoring.\n\n\nKendo Translation Platform\nSoftware project\nA collaborative Japanese–English translation platform for kendo instructional content. Features a MAC-RAG (Multi-Agent Collaborative RAG) AI pipeline with keigo detection, terminology database, multi-candidate generation, quality scoring, and real-time collaborative editing backed by Supabase."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Short research notes, benchmark design reflections, and writing that does not belong in a formal paper.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom domain adaptation to LLM benchmarking\n\n\n\nresearch\n\nevaluation\n\nmultilingual\n\n\n\nHow my earlier work on transfer and generalization leads naturally to current work on multilingual and retrieval-augmented evaluation.\n\n\n\n\n\nApr 21, 2026\n\n\nNghia Trung Ngo\n\n\n\n\n\nNo matching items"
+  }
+]

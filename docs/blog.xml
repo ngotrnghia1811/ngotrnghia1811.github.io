@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Nghia Trung Ngo</title>
+<link>https://ngotrnghia1811.github.io/blog.html</link>
+<atom:link href="https://ngotrnghia1811.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Personal website of Nghia Trung Ngo, Ph.D. student in Computer Science at the University of Oregon.</description>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Tue, 21 Apr 2026 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>From domain adaptation to LLM benchmarking</title>
+  <dc:creator>Nghia Trung Ngo</dc:creator>
+  <link>https://ngotrnghia1811.github.io/posts/from-domain-adaptation-to-llm-benchmarking/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>My recent work on multilingual and retrieval-augmented evaluation did not start from nowhere. It grew out of an earlier question that has been consistent across projects: what happens when the assumptions made by training data and benchmark design stop matching the setting where a system is actually used?</p>
+<section id="earlier-work-generalization-under-shift" class="level2">
+<h2 class="anchored" data-anchor-id="earlier-work-generalization-under-shift">Earlier Work: Generalization Under Shift</h2>
+<p>My earlier research focused on domain adaptation, event detection, and information extraction. In those projects, the main challenge was transfer: a model learned from one domain but was expected to work in another, often with different distributions, different vocabulary, or different evidence structure.</p>
+<p>That line of work pushed me toward a broader view of robustness. Performance on a benchmark is only part of the story. The harder and more important question is how well the model behaves when the data, language, or task structure changes.</p>
+</section>
+<section id="why-the-same-question-shows-up-in-llm-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-same-question-shows-up-in-llm-evaluation">Why the Same Question Shows Up in LLM Evaluation</h2>
+<p>Large language models change the scale of the problem, but not the core issue. A benchmark can still be too narrow, too clean, or too easy to overfit conceptually. This is especially visible in multilingual evaluation and retrieval-augmented generation.</p>
+<p>In multilingual settings, translation alone is not enough. Systems need to handle knowledge that is distributed differently across languages and cultures. In retrieval-augmented settings, success depends not only on generation quality but also on whether the evidence is relevant, reliable, and appropriately integrated.</p>
+</section>
+<section id="what-i-want-benchmarks-to-measure-better" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-want-benchmarks-to-measure-better">What I Want Benchmarks to Measure Better</h2>
+<p>There are three things I want new evaluations to capture more directly.</p>
+<ol type="1">
+<li>Robustness to noisy or misleading evidence.</li>
+<li>Integration of diverse knowledge sources, especially across languages.</li>
+<li>Reasoning behavior that becomes visible only when the task grows more complex.</li>
+</ol>
+<p>These are the conditions where a system becomes useful or unreliable in practice. They are also the conditions that simpler benchmarks often wash away.</p>
+</section>
+<section id="where-this-leads" class="level2">
+<h2 class="anchored" data-anchor-id="where-this-leads">Where This Leads</h2>
+<p>This is why my current work emphasizes benchmark design for multilingual evaluation, medical RAG, and more demanding reasoning settings. The goal is not only to rank models, but to make evaluation informative enough to guide better systems.</p>
+<p>That is the thread connecting my earlier research to my current direction: not a change in topic so much as a stronger commitment to testing models under the kinds of variation they will actually face.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>research</category>
+  <category>evaluation</category>
+  <category>multilingual</category>
+  <guid>https://ngotrnghia1811.github.io/posts/from-domain-adaptation-to-llm-benchmarking/</guid>
+  <pubDate>Tue, 21 Apr 2026 07:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
